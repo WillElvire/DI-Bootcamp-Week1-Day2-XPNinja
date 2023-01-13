@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Chivo Mono', monospace;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+
+}
+a{
+    color: #000000;
+}
+#login{
+    width: 50%;
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+    
+}
+#register{
+    width: 50%;
+    height: 665px;background: rgb(90,9,121);
+    background: radial-gradient(circle, rgba(90,9,121,1) 0%, rgba(2,0,36,1) 100%);
+}
+#text_login{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 45px;
+}
+#input{
+    background-color: rgb(202, 197, 197);
+    margin-top: 30px;
+    margin-left: 100px;
+    height: 30px;
+    width: 500px;
+    border: none
+
+}
+
+#login_button{
+    background-color: purple;
+    margin-top: 30px;
+    margin-left: 100px;
+    height: 30px;
+    width: 500px;
+    border: none;
+    color:white;
+    font-weight: bolder;
+    
+
+}
+#login_button:hover{background-color: #000000; /* Green */
+    color: white;
+    cursor:pointer;
+}
+#register_button:hover{
+    background-color: white;
+    color: black;
+    
+    cursor:pointer;
+}
+#register_button{
+    text-align: center;
+    background-color: purple;
+    margin-top: 30px;
+    margin-left: 250px;
+    height: 30px;
+    width: 150px;
+    border: none;
+    color:white;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+
+.divise {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.35);
+    margin: 8px 0px;
+}
+.divise:before,
+.divise:after {
+    content: "";
+    flex-grow: 1;
+    background: rgba(0, 0, 0, 0.35);
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+    margin: 0px 8px;
+}
+
+#add_user i{
+    margin-top: 200px;
+    margin-left: 45%;
+    color: white;
+    font-size: 90px;
+    text-align: center;
+}
+
+#text_register{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+#text_info{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    opacity: 0.5;
+}
+
+.footer{
+    padding-left: 25px;
+    padding-top: 100px;
+    color: black;
+    text-align: center;
+}
+
+#social{
+    padding-left: 270px;
+    font-size: 25px;
+    border: black;
+}
+
+#same{
+    display: flex;
+    padding-left: 100px;
+    padding-top: 20px;
+}
